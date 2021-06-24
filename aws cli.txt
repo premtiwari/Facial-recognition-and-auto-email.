@@ -1,0 +1,4 @@
+ aws ec2 attach-volume --volume-id vol-0d2fbe853e76f09c5  --instance-id  i-0b313061f95d07180 --device /dev/xvda
+ aws ec2 start-instances --instance-ids i-0b313061f95d07180
+ aws ec2 stop-instances --instance-ids i-0b313061f95d07180
+ aws ec2 detach-volume --volume-id vol-0d2fbe853e76f09c5  --instance-id  i-0b313061f95d07180 --device /dev/xvda
